@@ -3,7 +3,6 @@ const form = document.querySelector(".quiz-form");
 const quiz = document.querySelector(".quiz");
 const redoButton = document.querySelector(".result input");
 const result = document.querySelector(".result");
-const inputs = document.querySelectorAll('.form-check input:checked');
 
 form.addEventListener('submit', e => {
      e.preventDefault();
